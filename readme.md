@@ -16,7 +16,6 @@ This project is a comprehensive football analysis tool that uses computer vision
 
 ```bash
 ├── models/                      # Directory containing YOLOv5 trained models
-├── output_videos/               # Directory for saving output annotated videos
 ├── stubs/                        # Directory for saving intermediate stub files
 ├── utils.py                      # Utility functions for video reading, saving, etc.
 ├── trackers.py                   # YOLOv5 tracker logic
@@ -48,8 +47,8 @@ To run this project, you will need the following:
 To process a football match video and generate an annotated output video, run the following command:
 
 ``` bash
-git clone https://github.com/aymen-000/Football_Analysis_system
+git clone https://github.com/aymen-000/Football_Analysis
 pip install -r requirements.txt
-cd Football_Analysis_system
+cd Football_Analysis
 python main.py "<input_video_path>" "<output_video_path>"
 ```
